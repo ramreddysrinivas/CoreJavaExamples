@@ -17,9 +17,7 @@ public class MultipleSubClass implements MultipleSuper1, MultipleSuper2{
 	@Override
 	public void commmonmethod() {
 		System.out.println("commmonmethod");
-		
-		
-		
+			
 	}
 	
 
