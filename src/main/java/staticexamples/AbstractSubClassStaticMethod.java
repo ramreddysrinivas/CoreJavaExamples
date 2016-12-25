@@ -13,7 +13,7 @@ public class AbstractSubClassStaticMethod extends AbstractSuperClassStaticMethod
 *///we can not override static method in sub class
 	public	static void staticm1(){
 		System.out.println("AbstractSubClassStaticMethod.staticm1");
-		//this method will be treeted as seperate method no comparision with super class static method
+		//this method will be treated as separate method no comparison with super class static method
 	}
 	public static void main(String[] args) {
 		AbstractSubClassStaticMethod a1 = new AbstractSubClassStaticMethod();
