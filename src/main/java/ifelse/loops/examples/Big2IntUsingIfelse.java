@@ -1,4 +1,4 @@
-package ifelseexamples;
+package ifelse.loops.examples;
 
 public class Big2IntUsingIfelse {
 	public  void big2int(int a, int b) {
