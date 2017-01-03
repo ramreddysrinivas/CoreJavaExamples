@@ -2,10 +2,11 @@ package exceptions.runtime;
 
 import java.util.Scanner;
 
-public class DivideByZeroException {
-	public static DivideByZeroException createObject() {
+public class DivideByZeroExceptionExample {
+	
+	public static DivideByZeroExceptionExample createObject() {
 
-		DivideByZeroException arithmaticException = new DivideByZeroException();
+		DivideByZeroExceptionExample arithmaticException = new DivideByZeroExceptionExample();
 		return arithmaticException;
 	}
 
@@ -35,9 +36,15 @@ public class DivideByZeroException {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("enter a value");
 		int a = scanner.nextInt();
+		//double d2 = arithmaticException.div(a, b);
+		//DivideByZeroExceptionExample arithmaticException = DivideByZeroExceptionExample.createObject();
 		System.out.println("enter b value");
 		int b = scanner.nextInt();
-		DivideByZeroException arithmaticException = createObject();
+		DivideByZeroExceptionExample arithmaticException = createObject();
+		/*DivideByZeroExceptionExample arithmaticException2 = createObject();
+		DivideByZeroExceptionExample arithmaticException3 = createObject();
+		DivideByZeroExceptionExample arithmaticException4 = createObject();
+		*/
 		double d2 = arithmaticException.div(a, b);
 		System.out.println(d2);
 	}
