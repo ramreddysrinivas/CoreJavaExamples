@@ -41,6 +41,7 @@ public class DivideByZeroExceptionExample {
 		System.out.println("enter b value");
 		int b = scanner.nextInt();
 		DivideByZeroExceptionExample arithmaticException = createObject();
+		
 		/*DivideByZeroExceptionExample arithmaticException2 = createObject();
 		DivideByZeroExceptionExample arithmaticException3 = createObject();
 		DivideByZeroExceptionExample arithmaticException4 = createObject();

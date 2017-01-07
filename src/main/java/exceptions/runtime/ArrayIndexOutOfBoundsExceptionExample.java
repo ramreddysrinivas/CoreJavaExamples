@@ -16,5 +16,7 @@ public class ArrayIndexOutOfBoundsExceptionExample {
 	         System.out.println("array size is" + len);
 	      }
 	      System.out.println("Out of the block");
+	     
+	      
 	 }
 	   }

@@ -4,10 +4,11 @@ public class StringIndexOutOfBoundExceptionExaple {
 	public static void main(String args[])
 	   {
 	      try{
-		 String str="easysteps2buildwebsite";
+		 String str="srinu";
 		 System.out.println(str.length());
-		 char c = str.charAt(0);
-		 c = str.charAt(40);
+		 char c = str.charAt(4);
+		 System.out.println(c);
+		 c = str.charAt(5);
 		 System.out.println(c);
 	      }catch(StringIndexOutOfBoundsException e){
 		  System.out.println("StringIndexOutOfBoundsException!!"  + e);
