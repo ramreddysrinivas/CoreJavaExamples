@@ -40,6 +40,7 @@ public class DivideByZeroExceptionExample {
 		//DivideByZeroExceptionExample arithmaticException = DivideByZeroExceptionExample.createObject();
 		System.out.println("enter b value");
 		int b = scanner.nextInt();
+		
 		DivideByZeroExceptionExample arithmaticException = createObject();
 		
 		/*DivideByZeroExceptionExample arithmaticException2 = createObject();

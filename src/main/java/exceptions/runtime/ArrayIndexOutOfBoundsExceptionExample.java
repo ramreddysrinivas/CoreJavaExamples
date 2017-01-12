@@ -6,7 +6,7 @@ public class ArrayIndexOutOfBoundsExceptionExample {
 		 int len= 0;
 	      try {
 	    	  
-	          a = new int[2];
+	        a = new int[2];
 	           len=a.length;
 	         System.out.println(len);
 	         
