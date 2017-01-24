@@ -41,10 +41,11 @@ public class FactorialWithUserDefinedException {
 		long fact = 0;
 		try{
 		 fact=factorialWithUserDefinedException.calculateFactorial(input);
-		
+		 System.out.println("factorial is  " + fact);
 	}catch(Exception e){
-		System.out.println(e.getMessage()); 
+		System.out.println(e.getMessage());
+		
 	}
-System.out.println("factorial is  " + fact);
+
 }
 }

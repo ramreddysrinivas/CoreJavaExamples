@@ -28,7 +28,7 @@ public class ArmstrongWithUserdefinedException {
 		return result;
 	}
 	public static void main(String[] args) {
-		long input = 0;
+		long input = 153;
 		ArmstrongWithUserdefinedException armstrongWithUserdefinedException = new ArmstrongWithUserdefinedException();
 		long output = 0;
 		try {
