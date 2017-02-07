@@ -15,7 +15,7 @@ public class ArrayListIterationExample {
 		return list;
 	}
 
-	public static void main(String[] args) {
+	public static void main(String... args) {
 		ArrayListIterationExample arrayListExample = new ArrayListIterationExample();
 		List<String> list = arrayListExample.prepareList(4);
 		System.out.println(list);

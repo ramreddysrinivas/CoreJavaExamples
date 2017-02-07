@@ -17,7 +17,7 @@ public class FactorialExample {
 	}
 	public static void main(String[] args) {
 		FactorialExample factorialExample = new FactorialExample();
-		long result= factorialExample.fact(25);
+		long result= factorialExample.fact(5);
 		System.out.println(result);
 	}
 
