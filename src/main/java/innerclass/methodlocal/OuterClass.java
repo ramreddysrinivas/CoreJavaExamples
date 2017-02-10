@@ -6,14 +6,14 @@ public class OuterClass {
 	      final int num = 23;
 
 	      // method-local inner class
-	      class MethodInner_Demo {
+	      class MethodInnerClass {
 	         public void print() {
 	            System.out.println("This is method inner class "+num);	   
 	         }   
 	      } // end of inner class
 		   
 	      // Accessing the inner class
-	      MethodInner_Demo inner = new MethodInner_Demo();
+	      MethodInnerClass inner = new MethodInnerClass();
 	      inner.print();
 	   }
 	   
