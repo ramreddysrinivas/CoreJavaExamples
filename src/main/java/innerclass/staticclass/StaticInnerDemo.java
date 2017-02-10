@@ -1,8 +1,8 @@
 package innerclass.staticclass;
 
-public class OuterDemo {
+public class StaticInnerDemo {
 	public static void main(String args[]) {
-	      Outer.Nested_Demo nested = new Outer.Nested_Demo();	 
+	      StaticOuter.StaticInner nested = new StaticOuter.StaticInner();	 
 	      nested.my_method();
 	   }
 
