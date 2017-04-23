@@ -8,12 +8,12 @@ public class Demo {
 		o1.m2();
 		
 		
-		
+		/*
 		SubClass o2 = new SubClass();
 		o2.m1();
 		o2.m2();
 		o2.m3();
-		
+		*/
 		//AbstractSuperClass o3= new AbstractSuperClass();
 		//abstract class can not be instantiated even though if it has constructor
 		

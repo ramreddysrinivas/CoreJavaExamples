@@ -5,7 +5,7 @@ public class Country {
 	private long population;
 
 	public Country(String name, long population) {
-		super();
+		//super();
 		this.name = name;
 		this.population = population;
 	}

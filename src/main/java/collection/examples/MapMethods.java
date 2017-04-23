@@ -26,16 +26,18 @@ public class MapMethods {
 		System.out.println("map contains key = " + map.containsKey(6));
 		System.out.println("map contains value = " + map.containsValue("value1"));
 		String value1 =map.get(4);
+		//System.out.println(map.get(40));
 		String value2 =map.get(40);
 		System.out.println("map.get(4) = " + value1);
 		System.out.println("map.get(40) = " + value2);
 		map.remove(null);
 		System.out.println("after removing null = " + map);
-	Set<Integer> keySet	=map.keySet();
-		System.out.println("keySet = " + keySet);
 		
+	    Set<Integer> keySet	=map.keySet();
+		System.out.println("keySet = " + keySet);
 		List<String> values = new ArrayList<String>(map.values());
 		System.out.println("values = "+ values);
+		
 	Set<Map.Entry<Integer,String>> entrySet	= map.entrySet();
 	System.out.println("entrySet = " + entrySet);
 	map.clear();

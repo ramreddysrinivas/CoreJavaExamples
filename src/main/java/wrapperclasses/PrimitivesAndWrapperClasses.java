@@ -12,7 +12,7 @@ public class PrimitivesAndWrapperClasses {
 	private Character c2;
 	
 	public void printprimitives(){
-		System.out.println("before initializing i1="+i1 + "  d1="+ d1 + "  b1=" +b1 + "  c1=" +c1);
+		System.out.println("before initializing i1="+i1 + "  d1="+ d1 + "  b1=" +b1 + "  c1= " + c1);
 		
 		i1=10;
 		d1=5.32;

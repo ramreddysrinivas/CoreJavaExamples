@@ -12,6 +12,14 @@ public class HashSetLinkedHashSet {
 	Set<String> linkedHashSet	=hashSetLinkedHashSet.createLinkedHashSet();
 	System.out.println("hashSet = " + hashSet);
 	System.out.println("linkedHashSet = " +linkedHashSet);
+	hashSetLinkedHashSet.iteratingUsingForEachLoop(linkedHashSet);
+	}
+
+	private void iteratingUsingForEachLoop(Set<String> linkedHashSet) {
+		System.out.println("iteratingUsingForEachLoop");
+for(String s :linkedHashSet){
+	System.out.print( s + "   ");
+}
 	}
 
 	private Set<String> createLinkedHashSet() {

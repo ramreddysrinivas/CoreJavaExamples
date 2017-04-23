@@ -33,6 +33,8 @@ public class ListMethodsExample {
 		list1.add(1);
 		list1.add(100);
 		list1.add(10);
+		list1.add(2, 45);
+		list1.remove(2);
 		System.out.println("list1 = "  +list1);
 		System.out.println("list3 = "  +list3);
 		System.out.println("after adding elements, list1 size = "  +list1.size());
@@ -41,6 +43,7 @@ public class ListMethodsExample {
 		}else{
 			System.out.println("list is  empty");
 		}
+	
 		if(list1.contains(5)){
 			System.out.println("list contains element");	
 		}else{
@@ -50,14 +53,14 @@ public class ListMethodsExample {
 		                  //if list size is <100
 		list1.remove(10);//  it removes the element at 10th index.
 		list1.remove(new Integer(10));// it removes the first occurrence of element
-		
+		list1.remove(new Integer(100));
 		
 		System.out.println("after removing element " +list1);
 			
 			/*Object [] i1 =  list.toArray();
 			System.out.println(i1);*/
 			
-		System.out.println(list1.get(1));
+		System.out.println(list1.get(5));
 		
 		List<Integer> list2 = new ArrayList<Integer>();
 		list2.addAll(list1);

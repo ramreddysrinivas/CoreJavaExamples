@@ -50,7 +50,7 @@ public class ArrayListIterationExample {
 		while (litr.hasNext()) { // it executes till the control reaches last
 									// element
 			String element = litr.next();
-			System.out.print(element + "+"); // element0+element1+element2+element3+element4+
+			System.out.print(element + "  "); // element0+element1+element2+element3+element4+
 
 		}
 		System.out.println("backward direction");
@@ -65,9 +65,9 @@ public class ArrayListIterationExample {
 
 	}
 
-	private void iterateListWithIterator(List<String> arraylist) {
+	private void iterateListWithIterator(List<String> list) {
 		System.out.println("iterateListWithIterator");
-		Iterator<String> itr = arraylist.iterator();
+		Iterator<String> itr = list.iterator();
 
 		while (itr.hasNext()) {
 			String element = itr.next();

@@ -2,10 +2,11 @@ package polymorphism.singleinheritance;
 
 public  class SingleSuperClass {
 	
-public SingleSuperClass(){
+	
+public  SingleSuperClass(){
 	System.out.println("SingleSuperClass");
 }
-	public void m1(){
+	public  void m1(){
 		System.out.println("SingleSuperClass m1");
 	}
 	

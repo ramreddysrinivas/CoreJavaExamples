@@ -12,6 +12,7 @@ public class CollectionHeterogeneousData {
 		collection.add("4");
 		
 		collection.add('a');
+		System.out.println(collection);
 		//System.out.println(5+"4"+true );
 	}
 

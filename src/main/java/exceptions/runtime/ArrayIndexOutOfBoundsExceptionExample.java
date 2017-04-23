@@ -1,4 +1,4 @@
-package exceptions.runtime;
+ package exceptions.runtime;
 
 public class ArrayIndexOutOfBoundsExceptionExample {
 	 public static void main(String args[]) {
@@ -10,7 +10,7 @@ public class ArrayIndexOutOfBoundsExceptionExample {
 	           len=a.length;
 	         System.out.println(len);
 	         
-	         System.out.println("Access element three :" + a[2]);
+	         System.out.println("Access element three :" + a[3]);
 	      }catch(ArrayIndexOutOfBoundsException e) {
 	         System.out.println("Exception thrown  :" + e);
 	         System.out.println("array size is" + len);

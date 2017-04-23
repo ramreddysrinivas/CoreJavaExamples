@@ -17,10 +17,10 @@ public class MapWithListValues {
 		for(String key : map.keySet()){
 		 List<String> valueList = map.get(key);
 		 System.out.println("valueList = " + valueList);
-		 System.out.println("key = " + key + " value = " );
-		 for(String value : valueList   ){
+		 System.out.println("key = " + key + " value = " + valueList);
+		/* for(String value : valueList   ){
 			 System.out.print(value + "  ");
-		 }
+		 }*/
 		 System.out.println();
 		}
 		
@@ -40,6 +40,7 @@ public class MapWithListValues {
 		addresses2.add("nellore");
 		addresses2.add("nirmal");
 		map.put("srinu", addresses2);
+		
 		return map;
 	}
 

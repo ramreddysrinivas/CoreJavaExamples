@@ -17,7 +17,7 @@ public class ListConcurrentModificationException {
 	System.out.println("list = " + list);
 	for (String s : list){
 		if(s.equals("element3")){
-			//list.remove("element3");// it throws java.util.ConcurrentModificationException
+			list.remove("element3");// it throws java.util.ConcurrentModificationException
 			//list.add("element3");//it throws java.util.ConcurrentModificationException
 		}
 			

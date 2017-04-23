@@ -14,7 +14,7 @@ public abstract class AbstractClass {
 		System.out.println("This is abstractSuperM2");
 	}
 
-	public void abstractSuperm3() {
+	public void abstractSuperM3() {
 		// it is null body method
 	}
 

@@ -7,14 +7,17 @@ public class StringImmutable {
 		String s3 ="String2";
 		System.out.println(s1);
 		System.out.println(s2);
-		System.out.println(s1==s2);
-		System.out.println((s1==s3) + "  "  + (s2== s3));
-		System.out.println(s1.equals(s2));
-		System.out.println((s1==s3) + "  "  + (s2== s3));
+		System.out.println(s3);
+		System.out.println(s1==s2);//true
+		System.out.println((s1==s3) + "  "  + (s2== s3));//false  false
+		System.out.println(s1.equals(s2)); //true
+		System.out.println((s1==s3) + "  "  + (s2== s3)); //false  false
 		System.out.println(s1 + " append s1");// it holds temporary memory.
 		s3=s3.concat(" append s2" );// it will not override the value in s1 memory, it will create a new memory for s1.
 		System.out.println(s1);
+		System.out.println(s2);
 		System.out.println(s3);
+		
 	}
 
 }

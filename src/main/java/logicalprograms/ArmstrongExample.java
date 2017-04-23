@@ -1,4 +1,4 @@
-package logicalprograms;
+ package logicalprograms;
 
 public class ArmstrongExample { //examples 0, 1, 153, 370, 371, 407 etc.
 	/*eg 1: 153 = (1*1*1)+(5*5*5)+(3*3*3)  

@@ -18,14 +18,14 @@ public class ArrayListVectorDiffrence {
 		vector.add(1);vector.add(10);
 		arrayList.add(11);
 		vector.add(11);
-		arrayList.add(1);arrayList.add(1);arrayList.add(1);arrayList.add(1);
+		/*arrayList.add(1);arrayList.add(1);arrayList.add(1);arrayList.add(1);
 		arrayList.add(1);
 		arrayList.add(1);arrayList.add(1);arrayList.add(1);
 		arrayList.add(1);arrayList.add(10);
 		vector.add(1);vector.add(1);vector.add(1);vector.add(1);
 		vector.add(1);vector.add(1);vector.add(1);vector.add(1);
 		vector.add(1);
-		vector.add(10);
+		vector.add(10);*/
 		
 		
 	}

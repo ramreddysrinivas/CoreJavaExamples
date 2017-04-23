@@ -3,6 +3,7 @@ package logicalprograms;
 public class FibonacciSeries {
 	// it prints fibonacciSeries for given count
 	public void fibSeries1(int input) {
+		
 		int n1 = 0;
 		int n2 = 1;
 		int n3;

@@ -6,8 +6,9 @@ public class CompileTimePolymorphism {
 	public void m1(){
 		System.out.println("m1()");
 	}
+	
 	public void m1(int a){
-		System.out.println("m1(inta)   "+ a);
+		System.out.println("m1(int a)   "+ a);
 		
 	}
 	public void m1(int a, int b){//Number of Arguments are Different

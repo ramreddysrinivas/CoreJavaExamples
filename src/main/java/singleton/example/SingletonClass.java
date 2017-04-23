@@ -2,7 +2,7 @@ package singleton.example;
 
 public class SingletonClass {
     
-    private static SingletonClass myObj;
+    private static SingletonClass myObj=null;
     /**
      * Create private constructor
      */

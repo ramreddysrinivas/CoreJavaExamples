@@ -31,7 +31,7 @@ public class PrimeNumbers {
 		
 		
 		PrimeNumbers primeNumbers = new PrimeNumbers();
-	boolean output 	 = primeNumbers.isPrime(1);
+	boolean output 	 = primeNumbers.isPrime(7);
 	
 	if(output==true){
 		System.out.println("prime number");
@@ -39,7 +39,7 @@ public class PrimeNumbers {
 		System.out.println("not a prime number");
 		
 	}
-	int n1=11;
+	int n1=1;
 	int n2=11;
 	if(n2>=n1){
 	System.out.println("prime numbers from " + n1  + " to " + n2);

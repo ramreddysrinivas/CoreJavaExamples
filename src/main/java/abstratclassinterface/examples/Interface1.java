@@ -4,8 +4,8 @@ public  interface Interface1 {
 	//public static final int C1 = 10;
 	int C1 = 10;
 	
-	//public abstract   void intefaceM1();
-	 void intefaceM1();
+	public abstract   void intefaceM1();
+	 //void intefaceM1();
 	 /*void  intefaceM2() {
 		 }*/ // It will throw compilation error when we try to use Define method in Interface//
 	// public Interface1(){}

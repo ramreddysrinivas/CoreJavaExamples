@@ -8,7 +8,7 @@ import java.util.Set;
 public class ListToSet {
 	public static void main(String[] args) {
 		ListToSet listToSet = new ListToSet();
-		List<Integer> arrayList =listToSet.createArrayList(5);
+		List<Integer> arrayList =listToSet.createArrayList(4);
 		arrayList.add(1);
 		arrayList.add(null);
 		arrayList.add(null);
